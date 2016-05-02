@@ -13,9 +13,7 @@ module motor_mount() {
                             [36, 2],
                             [32, 3],
                             [30, 27],
-                            [ 0, 27],
-                            [ 0, 23],
-                            [17, 23],
+                            [17, 27],
                         ]);
 
             rotate([0, 0, 45])
@@ -36,9 +34,6 @@ module motor_mount() {
         translate([-43/2, -43/2, 25])
             cube([43, 43, 10]);
 
-        // NEMA axis hole
-        translate([0, 0, 0])
-            cylinder(r = 22/2, h = 31);
 
         // NEMA mounting holes
         translate([+31/2, +31/2, 0]) {
