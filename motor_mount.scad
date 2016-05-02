@@ -21,8 +21,8 @@ module motor_mount() {
         }
 
         rotate([0, 0, 0])
-            translate([-17, 0, 4])
-                cube([17*2, 40, 10]);
+            translate([-13, 0, 4])
+                cube([13*2, 40, 15]);
 
         // sewing holes
         for(a = [0:15:360]) {
